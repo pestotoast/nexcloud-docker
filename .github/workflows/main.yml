@@ -30,7 +30,7 @@ jobs:
       - name: Build office nextcloud image
         uses: docker/build-push-action@v2
         with:
-          context: docker/21.0/fpm-alpine
+          context: docker/21/fpm-alpine
           tags: pestotoast/nextcloud-temp
           push: false
         
