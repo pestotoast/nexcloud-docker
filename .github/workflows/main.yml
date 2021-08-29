@@ -24,8 +24,8 @@ jobs:
           repository: 'nextcloud/docker'
           path: docker
       
-      - run:
-          sh ./update-dockerfile.sh
+      #- run:
+      #    sh ./update-dockerfile.sh
       
       - name: Build office nextcloud image
         uses: docker/build-push-action@v2
